@@ -1,0 +1,234 @@
+body{
+    font-family: 'Kufam', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media(min-width: 300px){
+  body{
+    font-size: 15px;
+  }  
+  .andromeda__img{
+    box-shadow: 0.1px 0.1px 0.1px rgba(40, 39, 39, 0);
+  }
+}
+@media(min-width: 400px){
+  .second__page{
+    height: 120vh;
+  }
+
+  }
+@media(min-width: 600.999px){
+    .menu__burger{
+        display: none;
+    }
+    .menu__list{
+        display: flex;
+        align-self: end;
+    }
+}
+@media(max-width: 600px){
+    .punct{
+       display: none;
+
+    }
+}
+@media(max-width: 950px){
+    .nebulas__img2{
+        display: none;
+    }
+    .nebulas__img{
+      position: relative;
+      left: -20px;
+      top: -20px;
+    }
+}
+@media(max-width: 1000px){
+    .andromeda__img__block{
+        padding: -10vh 0 ;
+    }
+    .andromeda__exp__block{
+        padding: -10vh 0 ;
+    }
+    .front__page{
+        display: inline-block;
+        flex-direction: column;
+        height: fit-content;
+        justify-content:center;
+    }
+    .nebulas__img{
+        box-shadow: 12px 1px 3px rgba(40, 39, 39, 0.842);
+        max-height: 300px;
+    }
+    .second__page{
+        display: inline;
+        flex-direction: column-reverse;
+    }
+    .nebulas__img2{
+        display: none;
+    }
+    .nebulas__img{
+      position: relative;
+      left: -20px;
+    }
+}
+
+.logo__text{
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+    border-bottom: solid 2px black;
+}
+.menu__block{
+    background-color: #5c5b5c87;
+    width: 100%;
+    height: 60px;
+}
+
+.punct.active{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;  
+}
+.menu__list.active{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    height: 90%;
+    background-color: #5c5b5c;
+    z-index: 2;
+    overflow: hidden;
+    align-self: start;
+}
+.menu.active{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.text__punct1.active{
+    color: aliceblue;
+}
+.text__punct2.active{
+    color: aliceblue;
+}
+.text__punct3.active{
+    color: aliceblue;
+}
+.text__punct4.active{
+    color: aliceblue;
+}
+.burger{
+    z-index: 5;
+}
+.menu__burger{
+    padding: 18px 15px 0 0;
+}
+.menu__logo{
+     margin: 15px 0;
+}
+.menu__block{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu__list{
+display: flex;
+flex-direction: column;
+}
+.punct{
+   padding: 5px 15px;
+   margin: 0 5px -5px 0;
+}
+.front__page{
+   background: url("toppageimg.webp") 0 0/100% 100% no-repeat;
+   height: 100vh;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nebula__exp{
+    font-size: 20px;
+    font-weight: 100;
+    color: aliceblue;
+    display: inline-flex;
+    margin: 5px 7px;
+}
+.nebula__exp__block{
+    max-width: 400px;
+    width: 100%;
+    margin: 5vw;
+    /* margin: 20vh 5vw; */
+}
+
+.nebulas__img{
+    border-radius: 10px;
+    margin-right: 10vw;
+    max-width: 250px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 12px 16px 3px rgba(40, 39, 39, 0.842);
+    margin: 2vw;
+    padding: 0 0 0 8px;
+    /* margin: 20vh 0; */
+}
+.nebulas__img2{
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+    left: -90px;
+    box-shadow: 16px 20px 3px rgba(40, 39, 39, 0.854);
+    /* margin: 20vh 0; */
+}
+.second__page{
+    background: url("starsky.webp");
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top:  2px solid #5c5b5c;
+}
+.andromeda__img__block{
+    max-width: 350px;
+    width: 100%;
+    margin: 10px;
+}
+.andromeda__img{
+    border-radius: 10px 100px;
+    width: 100%;
+    max-width: 350px;
+}
+.andromeda__exp__block{
+    word-wrap: break-word;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    left: -20px;
+    margin: 30lvh 0;
+}
+.andromeda__exp{
+    font-size: 20px;
+    font-weight: 100;
+    color: aliceblue;
+    display: inline-flex;
+    margin: 0 27px;
+}
